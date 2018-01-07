@@ -6,12 +6,9 @@ while True:
     L += 2**n
     do = int(L / 2)
     while True:
-        if L % 2 == 0:
-            break
         for i in range(3, do, 2):
             if L % i == 0:
                 break
-
         else:
             print(L * (2 ** n))
             break
